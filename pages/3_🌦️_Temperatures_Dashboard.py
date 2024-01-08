@@ -146,7 +146,7 @@ plt.ylabel('Temperature (°C)')  # TODO
 
 plt.legend()
     
-    c.pyplot(fig)
+c.pyplot(fig)
 
 
 
@@ -167,7 +167,7 @@ plt.ylabel('Frequency')  # TODO
 
 plt.legend()
 
-    c.pyplot(fig)
+c.pyplot(fig)
 
 
 
