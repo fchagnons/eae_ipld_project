@@ -153,7 +153,7 @@ c.pyplot(fig)
     # TODO: Make a histogram of the temperature reads of a list of selected cities, for the selected time period, 
     # every city has to be its own distribution with a different color.
 
-    fig = plt.figure(figsize=(10, 5))
+fig = plt.figure(figsize=(10, 5))
 
 for city in selected_cities:
     city_df = temps_df[temps_df['City'] == city].assign(Date=pd.to_datetime(temps_df['Date']))             # TODO: get a dataframe with the rows of the selected city
